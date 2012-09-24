@@ -30,7 +30,6 @@ kmscube_LDFLAGS = \
 
 kmscube_LDADD = \
 	$(DRM_LIBS) \
-	$(DRM_OMAP_LIBS) \
 	$(GBM_LIBS) \
 	$(EGL_LIBS) \
 	$(GLES2_LIBS)
@@ -38,7 +37,6 @@ kmscube_LDADD = \
 kmscube_CFLAGS = \
 	-O0 -g -lm \
 	$(DRM_CFLAGS) \
-	$(DRM_OMAP_CFLAGS) \
 	$(GBM_CFLAGS) \
 	$(EGL_CFLAGS) \
 	$(GLES2_CFLAGS)
