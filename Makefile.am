@@ -30,7 +30,8 @@ kmscube_LDADD = \
 	$(DRM_LIBS) \
 	$(GBM_LIBS) \
 	$(EGL_LIBS) \
-	$(GLES2_LIBS)
+	$(GLES2_LIBS) \
+	-ldl -lIMGegl -lsrv_um
 
 kmscube_CFLAGS = \
 	-O0 -g -lm \
